@@ -27,7 +27,7 @@ while True:
     javob =input("yana royhat krgazasizmi(yes/no)")
     if javob == 'no':
         break
-print("\nroyghatlar")
+print("\nroyhatlar")
 for royhat in royhatlar:
     if royhat['tel_raqami']:
         tel_raqami = royhat['tel_raqami']
